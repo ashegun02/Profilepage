@@ -197,10 +197,11 @@
     </div>
     <div class="contact-form">
       <form name="contact" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="contact"/>
             <input type="name" placeholder="Your Name" required>
             <input type="email" placeholder="Your Email" required>
             <input type="number" placeholder="Your Mobile Number" required>
-            <textarea name="" id="" cols="35" rows="10" placeholder="How can I Help You?"></textarea>
+            <textarea name="message" id="message" cols="35" rows="10" placeholder="How can I Help You?"></textarea>
             <button type="submit" class="btn"> Submit Message </button>           
         </form>
     </div>
