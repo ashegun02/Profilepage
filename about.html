@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>AshegunTech</title>
+    <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+<!-- header -->
+ <header class="header">
+  <a href="#"><img src="./IMAGES/MyLogo.jpg" alt="Logo"></a>
+  <div class="NavMenu" id="NavMenu">
+      <i class='bx  bx-x' onclick="closeMenu()"></i>  
+    <ul>
+     <li> <a href="index.html">Home</a></li>
+     <li> <a href="about.html">About</a></li>    
+     <li> <a href="services.html">Services</a></li>
+     <li> <a href="portfolio.html">Portfolio</a></li>
+     <li> <a href="contact.html">Contact</a></li>
+     </ul>
+        </div> 
+        <i class='bx  bx-menu' onclick="openMenu()"></i> 
+    </header>
+    
+  <!-- sub-header session --> 
+   <section class="sub-header" id="sub-header">
+         <h1> About <span> Me</span></h1>
+   </section>
+   
+    <!-- About session -->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="./IMAGES/check.jpg" alt="">
+    </div>
+    <div class="about-text">
+        <h4> <span> I'm an </span> Office Technologist</h4>
+        <p> Who loves streamlining workflows and creating efficient office solutions. With a passion for organization and a knack for problem-solving, I'm always looking for new and creative ways to boost productivity. With my expertise in office technology, administration, and process improvement, I empower businesses to run smoothly and effectively. <br> <br> Whether it's implementing new software, optimizing office workflows, or simply finding ways to reduce stress, I'm here to support every step of the way. When I'm not working on the latest office project, you can find me surfing the internet for the latest trends, listening to music that fuels my creativity, or playing games that challenge my mind. <br> <br> I'm a big believer in the power of balance, and I make sure to take time for the things that bring me joy. This approach helps me bring fresh ideas and a positive attitude to every project I take on. </p>
+        <a href="tel:+2348101788062" class="btn">Let's Dialogue</a>
+    </div>
+</section>
+
+<section class="others" id="others">
+    <div class="sub-text-title">
+        <h2> Why <span> Me? </span></h2>
+    </div>
+    
+    <div class="others-img">
+        <img src="./IMAGES/Brandlogo.jpg" alt="">
+        <span class="circle-spin"></span>
+    </div>
+    
+    <div class="others-text">
+       <h3> <span> As </span>an Office Technologist, Data Analyst & Web Developer</h3> 
+       <p>
+        -  I optimize office operations with technical expertise and tailor solutions to meet unique needs. <br> <br>
+          
+        -  I analyze data to inform business decisions, and  tailor insights to meet specific needs for academic projects. <br> <br>
+           
+         - I build functional websites with technical expertise. I tailor solutions to meet individual goals.
+           
+       </p>
+    </div>
+    
+    <div>
+        <a href="https://wa.me/+2348101788062" class="btn"> Contact Me</a>
+    </div>
+</section>
+
+<!----------footer session---------->
+<footer class="footer">
+    <div class="attribution">
+        <p>Design With <i class='bx  bx-heart'  ></i> By AshegunTech</p>
+    </div>
+    <div class="move-up">
+        <a href="#sub-header"><i class='bx  bx-up-arrow-alt'  ></i> </a>
+    </div>
+
+<!-- JS for toggle menu -->
+<script>
+    var NavMenu = document.getElementById("NavMenu");
+    
+    function openMenu() {
+        NavMenu.style.right = "0";
+    }
+    
+    function closeMenu() {
+        NavMenu.style.right = "-200px";
+    }
+</script>
+</body>
+</html>

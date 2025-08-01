@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>AshegunTech</title>
+    <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+<!-- header -->
+ <header class="header">
+  <a href="#"><img src="./IMAGES/MyLogo.jpg" alt="Logo"></a>
+  <div class="NavMenu" id="NavMenu">
+      <i class='bx  bx-x' onclick="closeMenu()"></i>  
+    <ul>
+     <li> <a href="index.html">Home</a></li>
+     <li> <a href="about.html">About</a></li>    
+     <li> <a href="services.html">Services</a></li>
+     <li> <a href="portfolio.html">Portfolio</a></li>
+     <li> <a href="contact.html">Contact</a></li>
+     </ul>
+        </div> 
+        <i class='bx  bx-menu' onclick="openMenu()"></i> 
+    </header>
+    
+  <!-- sub-header session --> 
+   <section class="sub-header" id="sub-header">
+         <h1> My <span> Services</span></h1>
+   </section>
+   
+    <!-- Services Sessions-->
+
+<section class="services" id="services">
+  <div class="text-title">
+      <h2> <span> What I </span> Do? </h2>
+  </div>
+  <div class="services-content">
+    <div class="box">
+       <div class="icons">
+           <i class="bx bx-code"></i>
+       </div>
+       <h3> Project Writing & Data Analysis </h3>
+       <p> Provided expert writing services for projects, and analyzed data to extract insights and meaningful information. Developed comprehensive project reports, research papers, and proposals. Utilized data analysis tools to identify trends, patterns, and correlations, presenting findings in a clear and actionable manner.</p>
+       <a href="#contact" class="btn">Contact Me</a>
+      </div>  
+      
+       <div class="box">
+       <div class="icons">
+           <i class="bx bx-devices"></i>
+       </div>
+       <h3>Document Processing </h3>
+       <p> Offered document processing services, including editing, formatting, and preparation of documents for various purposes. Ensured accuracy, consistency, and attention to detail in documents such as resumes, reports, and presentations. Utilized software tools to enhance document quality and productivity.</p>
+       <a href="#contact" class="btn">Contact Me</a>
+      </div>  
+      
+       <div class="box">
+       <div class="icons">
+           <i class="bx bx-book"></i>
+       </div>
+       <h3> Graphics Design</h3>
+       <p> Created visually appealing graphics, logos, and designs to meet clients' needs, enhancing their brand identity. Designed custom graphics for various platforms, including social media, websites, and print materials. Developed visually engaging designs that captured the target audience's attention and conveyed the intended message.</p>
+       <a href="#contact" class="btn">Contact Me</a>
+      </div>  
+      
+       <div class="box">
+       <div class="icons">
+           <i class="bx bx-pen"></i>
+       </div>
+       <h3> Frontend Development</h3>
+       <p> Designed and developed user-friendly, responsive, and interactive websites, ensuring a seamless user experience. Utilized HTML, CSS, and JavaScript to create custom web applications and interfaces. Focused on creating responsive designs that adapted to various devices and screen sizes, ensuring optimal performance and usability.</p>
+       <a href="#contact" class="btn">Contact Me</a>
+      </div>  
+    </div>
+</section>
+
+<section class="others">
+    <div class="sub-text-title">
+        <h2> Other <span> Services </span></h2>
+    </div>
+    
+    <div class="others-img">
+        <img src="./IMAGES/training.jpeg" alt="">
+        <span class="circle-spin"></span>
+    </div>
+    
+    <div class="others-text">
+       <h3> Tutorial and Computer <span> Training </span></h3> 
+       <p> As a dedicated trainer, I provide personalized tutorial and computer training services, helping individuals and organizations unlock their full potential with technology. With a passion for teaching and a knack for breaking down complex concepts, I tailor my training programs to meet specific needs, empowering students and professionals to master essential computer skills and achieve their goals.</p>
+    </div>
+    
+    <div>
+        <a href="tel:+2348101788062" class="btn" id="contact"> Contact Me</a>
+    </div>
+</section>
+
+<!----------footer session---------->
+<footer class="footer">
+    <div class="attribution">
+        <p>Design With <i class='bx  bx-heart'  ></i> By AshegunTech</p>
+    </div>
+    <div class="move-up">
+        <a href="#sub-header"><i class='bx  bx-up-arrow-alt'  ></i> </a>
+    </div>
+
+<!-- JS for toggle menu -->
+<script>
+    var NavMenu = document.getElementById("NavMenu");
+    
+    function openMenu() {
+        NavMenu.style.right = "0";
+    }
+    
+    function closeMenu() {
+        NavMenu.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
