@@ -89,7 +89,7 @@ span {
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(9, 188, 201, 0.7), rgba(9, 188, 201, 0.7)), url(./IMAGES/Mybg.jpg);
+    background-image: linear-gradient(rgba(9, 188, 201, 0.7), rgba(9, 188, 201, 0.7)), url(Mybg.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -559,7 +559,7 @@ span {
 .sub-header {
     height: 70vh;
     width: 100%;
-    background-image: linear-gradient(rgba(9, 188, 201, 0.7), rgba(9, 188, 201, 0.7)), url(./IMAGES/aboutbg.jpg);
+    background-image: linear-gradient(rgba(9, 188, 201, 0.7), rgba(9, 188, 201, 0.7)), url(aboutbg.jpg);
     background-position: center;
     background-size: cover;
     text-align: center;
