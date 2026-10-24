@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Segun M. Afolabi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="MyLogo.jpg" alt="AshegunTech Logo">
+        </a>
+        
+        <nav class="navmenu" id="navmenu">
+            <i class='bx bx-x close-menu' onclick="closeMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <i class='bx bx-menu menu-icon' onclick="openMenu()"></i>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-content" data-aos="fade-up">
+            <h1>My <span>Portfolio</span></h1>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <i class='bx bx-chevron-right'></i>
+                <span>Portfolio</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio">
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-subtitle">My Work</span>
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-description">A collection of my recent work across different disciplines</p>
+        </div>
+        
+        <div class="portfolio-filter" data-aos="fade-up" data-aos-delay="100">
+            <button class="filter-btn active" data-filter="all">All Projects</button>
+            <button class="filter-btn" data-filter="web">Web Development</button>
+            <button class="filter-btn" data-filter="design">Graphics Design</button>
+            <button class="filter-btn" data-filter="document">Document Processing</button>
+            <button class="filter-btn" data-filter="writing">Project Writing</button>
+        </div>
+        
+        <div class="portfolio-container">
+            <!-- Web Development Projects -->
+            <div class="portfolio-item" data-category="web" data-aos="fade-up" data-aos-duration="1000">
+                <div class="portfolio-image">
+                    <img src="prod2.jpg" alt="Ashegun Institute Website">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h4>Ashegun Institute Website</h4>
+                            <p>Educational institution website with modern responsive design and comprehensive information system</p>
+                            <div class="portfolio-links">
+                                <a href="https://ashegun-institute.netlify.app" target="_blank" class="portfolio-link" title="View Live Site">
+                                    <i class='bx bx-link-external'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-item" data-category="web" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+                <div class="portfolio-image">
+                    <img src="prod4.jpg" alt="AshegunTech Website">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h4>AshegunTech Portfolio</h4>
+                            <p>Professional technology solutions website showcasing services and portfolio</p>
+                            <div class="portfolio-links">
+                                <a href="https://asheguntech.netlify.app" target="_blank" class="portfolio-link" title="View Live Site">
+                                    <i class='bx bx-link-external'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-item" data-category="web" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                <div class="portfolio-image">
+                    <img src="prod1.jpg" alt="Business Landing Page">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h4>Business Landing Page</h4>
+                            <p>Modern landing page design with interactive elements and smooth animations</p>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link" title="View Project">
+                                    <i class='bx bx-link-external'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Graphics Design Projects -->
+            <div class="portfolio-item" data-category="design" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+                <div class="portfolio-image">
+                    <img src="prod6.jpg" alt="Brand Identity Design">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h4>Brand Identity & Logo Design</h4>
+                            <p>Complete brand identity packages including logos, color schemes, and brand guidelines</p>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link" title="View Design">
+                                    <i class='bx bx-image'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-item" data-category="design" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+                <div class="portfolio-image">
+                    <img src="prod7.jpg" alt="Marketing Materials">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h4>Marketing & Promotional Materials</h4>
+                            <p>Flyers, banners, brochures, and social media graphics for various businesses</p>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link" title="View Design">
+                                    <i class='bx bx-image'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-item" data-category="design" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+                <div class="portfolio-image">
+                    <img src="prod3.jpg" alt="Digital Graphics">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h4>Digital & Print Graphics</h4>
+                            <p>Creative designs for both digital platforms and print media</p>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link" title="View Design">
+                                    <i class='bx bx-image'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Document Processing Projects -->
+            <div class="portfolio-item" data-category="document" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+                <div class="portfolio-image">
+                    <img src="prod8.jpg" alt="Business Documents">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h4>Professional Business Documents</h4>
+                            <p>Proposals, reports, letters, and business documentation with professional formatting</p>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link" title="View Samples">
+                                    <i class='bx bx-file'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="portfolio-item" data-category="document" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+                <div class="portfolio-image">
+                    <img src="prod5.jpg" alt="Academic Documents">
+                    <div class="portfolio-overlay">
+                        <div class="portfolio-content">
+                            <h4>Academic Project Documents</h4>
+                            <p>Thesis, dissertations, and project reports with proper formatting and citations</p>
+                            <div class="portfolio-links">
+                                <a href="#" class="portfolio-link" title="View Samples">
+                                    <i class='bx bx-file'></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section class="stats-section" style="padding: 6rem 10%; background: var(--bg-secondary);">
+        <div class="stats-container" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 3rem; max-width: 1000px; margin: 0 auto; text-align: center;">
+            <div class="stat-item" data-aos="fade-up">
+                <h3 style="font-family: 'Poppins', sans-serif; font-size: 4rem; color: var(--primary-color); margin-bottom: 1rem;">50+</h3>
+                <p style="font-size: 1.6rem; color: var(--text-secondary);">Projects Completed</p>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                <h3 style="font-family: 'Poppins', sans-serif; font-size: 4rem; color: var(--primary-color); margin-bottom: 1rem;">40+</h3>
+                <p style="font-size: 1.6rem; color: var(--text-secondary);">Happy Clients</p>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                <h3 style="font-family: 'Poppins', sans-serif; font-size: 4rem; color: var(--primary-color); margin-bottom: 1rem;">5+</h3>
+                <p style="font-size: 1.6rem; color: var(--text-secondary);">Years Experience</p>
+            </div>
+            <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                <h3 style="font-family: 'Poppins', sans-serif; font-size: 4rem; color: var(--primary-color); margin-bottom: 1rem;">100%</h3>
+                <p style="font-size: 1.6rem; color: var(--text-secondary);">Client Satisfaction</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section" style="padding: 8rem 10%; text-align: center;">
+        <div data-aos="fade-up">
+            <h2 style="font-family: 'Poppins', sans-serif; font-size: 3.5rem; margin-bottom: 2rem;">Have a Project in Mind?</h2>
+            <p style="font-size: 1.7rem; color: var(--text-muted); margin-bottom: 3rem; max-width: 600px; margin-left: auto; margin-right: auto;">
+                Let's work together to create something amazing. Get in touch and let's discuss your project.
+            </p>
+            <div style="display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap;">
+                <a href="contact.html" class="btn btn-primary">
+                    <i class='bx bx-envelope'></i> Start a Project
+                </a>
+                <a href="https://wa.me/+2348101788062" class="btn btn-secondary">
+                    <i class='bx bxl-whatsapp'></i> Quick Chat
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="MyLogo.jpg" alt="AshegunTech">
+                        <h3>AshegunTech</h3>
+                    </div>
+                    <p>Transforming ideas into digital solutions with creativity and innovation.</p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/segun.micheal.ashegun/"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.x.com/ashegun001/"><i class='bx bxl-twitter'></i></a>
+                        <a href="https://www.instagram.com/ashegun02/"><i class='bx bxl-instagram-alt'></i></a>
+                        <a href="https://www.tiktok.com/@ashegun2/"><i class='bx bxl-tiktok'></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Project Writing</a></li>
+                        <li><a href="services.html">Data Analysis</a></li>
+                        <li><a href="services.html">Document Processing</a></li>
+                        <li><a href="services.html">Graphics Design</a></li>
+                        <li><a href="services.html">Web Development</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Get In Touch</h4>
+                    <div class="footer-contact">
+                        <p><i class='bx bx-phone'></i> +234 810 178 8062</p>
+                        <p><i class='bx bx-envelope'></i> segunmicheal641@gmail.com</p>
+                        <p><i class='bx bx-map'></i> Federal Polytechnic Ede, Nigeria</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 AshegunTech. All Rights Reserved. Designed with <i class='bx bx-heart'></i> by Segun M. Afolabi</p>
+            </div>
+        </div>
+        
+        <a href="#" class="back-to-top">
+            <i class='bx bx-up-arrow-alt'></i>
+        </a>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Segun M. Afolabi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="MyLogo.jpg" alt="AshegunTech Logo">
+        </a>
+        
+        <nav class="navmenu" id="navmenu">
+            <i class='bx bx-x close-menu' onclick="closeMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+        
+        <i class='bx bx-menu menu-icon' onclick="openMenu()"></i>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-content" data-aos="fade-up">
+            <h1>Contact <span>Me</span></h1>
+            <div class="breadcrumb">
+                <a href="index.html">Home</a>
+                <i class='bx bx-chevron-right'></i>
+                <span>Contact</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-subtitle">Get In Touch</span>
+            <h2 class="section-title">Let's Work Together</h2>
+            <p class="section-description">Have a project in mind? I'd love to hear from you</p>
+        </div>
+        
+        <div class="contact-container">
+            <div class="contact-info" data-aos="fade-right" data-aos-duration="1000">
+                <h3>Contact Information</h3>
+                <p>Feel free to reach out through any of these channels. I typically respond within 24 hours.</p>
+                
+                <div class="contact-items">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class='bx bx-phone'></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone Number</h4>
+                            <a href="https://wa.me/+2348101788062">+234 810 178 8062</a>
+                            <p style="margin-top: 0.5rem; font-size: 1.3rem;">Available on WhatsApp</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class='bx bx-envelope'></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email Address</h4>
+                            <a href="mailto:segunmicheal641@gmail.com">segunmicheal641@gmail.com</a>
+                            <p style="margin-top: 0.5rem; font-size: 1.3rem;">Send me an email anytime</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class='bx bx-map'></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Federal Polytechnic Ede</p>
+                            <p style="margin-top: 0.5rem; font-size: 1.3rem;">Osun State, Nigeria</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class='bx bx-time'></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Working Hours</h4>
+                            <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                            <p style="margin-top: 0.5rem; font-size: 1.3rem;">Weekend: By Appointment</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-social">
+                    <h4>Connect With Me</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/segun.micheal.ashegun/" target="_blank" title="Facebook">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+                        <a href="https://www.x.com/ashegun001/" target="_blank" title="Twitter">
+                            <i class='bx bxl-twitter'></i>
+                        </a>
+                        <a href="https://www.instagram.com/ashegun02/" target="_blank" title="Instagram">
+                            <i class='bx bxl-instagram-alt'></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@ashegun2/" target="_blank" title="TikTok">
+                            <i class='bx bxl-tiktok'></i>
+                        </a>
+                        <a href="https://wa.me/+2348101788062" target="_blank" title="WhatsApp">
+                            <i class='bx bxl-whatsapp'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="contact-form-container" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <h3 style="font-family: 'Poppins', sans-serif; font-size: 2.4rem; margin-bottom: 2rem; color: var(--text-primary);">Send Me a Message</h3>
+                <p style="color: var(--text-muted); margin-bottom: 3rem; font-size: 1.5rem;">Fill out the form below and I'll get back to you as soon as possible.</p>
+                
+                <form class="contact-form" action="https://formsubmit.co/segunmicheal641@gmail.com" method="POST">
+                    <input type="hidden" name="_subject" value="New Contact Form Message - AshegunTech">
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_next" value="https://ashegun02.github.io/Profilepage/contact.html">
+                    
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Your Full Name" required>
+                        <i class='bx bx-user'></i>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Your Email Address" required>
+                        <i class='bx bx-envelope'></i>
+                    </div>
+                    
+                    <div class="form-group">
+                        <input type="tel" name="phone" placeholder="Your Phone Number" required>
+                        <i class='bx bx-phone'></i>
+                    </div>
+                    
+                    <div class="form-group">
+                        <select name="service" required style="width: 100%; padding: 1.5rem 1.5rem 1.5rem 5rem; background: var(--bg-primary); border: 1px solid var(--border-color); border-radius: 0.8rem; color: var(--text-primary); font-family: 'Inter', sans-serif; font-size: 1.5rem;">
+                            <option value="">Select Service Needed</option>
+                            <option value="project-writing">Project Writing & Data Analysis</option>
+                            <option value="document-processing">Document Processing</option>
+                            <option value="graphics-design">Graphics Design</option>
+                            <option value="web-development">Web Development</option>
+                            <option value="computer-training">Computer Training</option>
+                            <option value="consultation">Office Consultation</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <i class='bx bx-list-ul'></i>
+                    </div>
+                    
+                    <div class="form-group textarea-group">
+                        <textarea name="message" placeholder="Describe your project or message in detail..." required></textarea>
+                        <i class='bx bx-message-detail'></i>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class='bx bx-send'></i> Send Message
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="map-section" style="padding: 0 10% 10rem;">
+        <div class="section-header" data-aos="fade-up">
+            <span class="section-subtitle">Location</span>
+            <h2 class="section-title">Find Me Here</h2>
+        </div>
+        <div class="map-container" data-aos="fade-up" data-aos-delay="100" style="border-radius: 1.5rem; overflow: hidden; box-shadow: var(--shadow-xl); max-width: 1200px; margin: 0 auto;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7907.03461731395!2d4.4252272!3d7.734821!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10382aeed82ead29%3A0x3028d89f002f485c!2sThe%20Federal%20Polytechnic%20Ede!5e0!3m2!1sen!2sng!4v1754031922586!5m2!1sen!2sng" 
+                    width="100%" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="MyLogo.jpg" alt="AshegunTech">
+                        <h3>AshegunTech</h3>
+                    </div>
+                    <p>Transforming ideas into digital solutions with creativity and innovation.</p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/segun.micheal.ashegun/"><i class='bx bxl-facebook'></i></a>
+                        <a href="https://www.x.com/ashegun001/"><i class='bx bxl-twitter'></i></a>
+                        <a href="https://www.instagram.com/ashegun02/"><i class='bx bxl-instagram-alt'></i></a>
+                        <a href="https://www.tiktok.com/@ashegun2/"><i class='bx bxl-tiktok'></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html">Project Writing</a></li>
+                        <li><a href="services.html">Data Analysis</a></li>
+                        <li><a href="services.html">Document Processing</a></li>
+                        <li><a href="services.html">Graphics Design</a></li>
+                        <li><a href="services.html">Web Development</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Get In Touch</h4>
+                    <div class="footer-contact">
+                        <p><i class='bx bx-phone'></i> +234 810 178 8062</p>
+                        <p><i class='bx bx-envelope'></i> segunmicheal641@gmail.com</p>
+                        <p><i class='bx bx-map'></i> Federal Polytechnic Ede, Nigeria</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 AshegunTech. All Rights Reserved. Designed with <i class='bx bx-heart'></i> by Segun M. Afolabi</p>
+            </div>
+        </div>
+        
+        <a href="#" class="back-to-top">
+            <i class='bx bx-up-arrow-alt'></i>
+        </a>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
