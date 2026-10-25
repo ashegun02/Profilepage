@@ -126,6 +126,14 @@ body {
     display: none;
 }
 
+/* Force hide menu icons on desktop/tablet */
+@media (min-width: 969px) {
+    .menu-icon,
+    .close-menu {
+        display: none !important;
+    }
+}
+
 /* Hero Section */
 .hero {
     min-height: 100vh;
